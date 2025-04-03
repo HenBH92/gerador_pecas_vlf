@@ -2,9 +2,9 @@ import streamlit as st
 from docx.enum.text import WD_PARAGRAPH_ALIGNMENT
 from manipulacao_arquivo import carregar_topicos_disponiveis, carregar_modelo, substituir_placeholders, adicionar_topicos, gerar_nome_arquivo, salvar_documento
 
-CAMINHO_MODELO = r"C:\Users\hcost\Programas\PythonProject\Gerador de Peças VLF\base_defesa_inter.docx"
-PASTA_TOPICOS = r"C:\Users\hcost\Programas\PythonProject\Gerador de Peças VLF\Topicos de Defesa"
-CAMINHO_CONCLUSAO = r"C:\Users\hcost\Programas\PythonProject\Gerador de Peças VLF\base_conclusao_defesa_inter.docx"
+CAMINHO_MODELO = r"./base_defesa_inter.docx"
+PASTA_TOPICOS = r"./Topicos de Defesa"
+CAMINHO_CONCLUSAO = r"./base_conclusao_defesa_inter.docx"
 
 
 def interface_streamlit():

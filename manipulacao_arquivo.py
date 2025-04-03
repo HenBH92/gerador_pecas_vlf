@@ -12,7 +12,7 @@ def carregar_topicos_disponiveis(pasta_topicos):
   topicos = glob.glob(caminho_busca)
   for topico in topicos:
     nome_arquivo = os.path.basename(topico)
-    nome_sem_extensao = (os.path.splitext(nome_arquivo)[0]).title()
+    nome_sem_extensao = (os.path.splitext(nome_arquivo)[0])
     topicos_disponiveis.append(nome_sem_extensao)
   return topicos_disponiveis
 

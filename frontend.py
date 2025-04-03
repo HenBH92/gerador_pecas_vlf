@@ -1,6 +1,4 @@
-from tkinter import filedialog
 import streamlit as st
-import tkinter as tk
 from docx.enum.text import WD_PARAGRAPH_ALIGNMENT
 from manipulacao_arquivo import carregar_topicos_disponiveis, carregar_modelo, substituir_placeholders, adicionar_topicos, gerar_nome_arquivo, salvar_documento
 

@@ -9,15 +9,6 @@ PASTA_TOPICOS = r"C:\Users\hcost\Programas\PythonProject\Gerador de Peças VLF\T
 CAMINHO_CONCLUSAO = r"C:\Users\hcost\Programas\PythonProject\Gerador de Peças VLF\base_conclusao_defesa_inter.docx"
 
 
-def select_folder():
-  root = tk.Tk()
-  root.withdraw()
-  folder_path = filedialog.askdirectory()
-  root.destroy()
-  return folder_path
-
-
-
 def interface_streamlit():
 
     st.set_page_config(layout="wide")
